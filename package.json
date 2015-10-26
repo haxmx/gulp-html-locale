@@ -14,5 +14,9 @@
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0"
   }
 }

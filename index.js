@@ -28,8 +28,8 @@ module.exports = function(opts) {
 			return;
 		}
 
-		createFile(context, file, 'en');
-		createFile(context, file, 'zh');
+		createFile(this, file, 'en');
+		createFile(this, file, 'zh');
 
 		cb();
 	});
